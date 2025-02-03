@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML Form</title>
+<style>
+  body {
+    background-color: yellow;
+  }
+  h1 {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form name="myform" action="" method="">
+<table cellpadding="5" cellspacing="5" bgcolor="lightgreen" align="center">
+  <tr>
+    <td>First Name: </td><td> <input type ="text" name="fname" size"" placeholder="Enter Your First Name"></td>
+  </tr>
+  <tr>
+    <td>Last Name: </td><td> <input type ="text" name="lname" size"" placeholder="Enter Your Last Name"></td>
+  </tr>
+  <tr>
+    <td>Father's Name: </td><td> <input type ="text" name="fathrame" size"" placeholder="Enter Your Father's Name"></td>
+  </tr>
+  <tr>
+    <td>Mother's Name: </td><td> <input type ="text" name="mname" size"" placeholder="Enter Your Mother's Name"></td>
+  </tr>
+  <tr>
+    <td>Date of Birth: </td><td> <input type ="date" name="DOB" size""></td>
+  </tr>
+  <tr>
+    <td>Email: </td><td> <input type ="email" name="email" size"" placeholder="Enter Your Email"></td>
+  </tr>
+  <tr>
+    <td>Gender: </td><td> <input type ="radio" name="gender" size""> Male <input type="radio" name ="gender" size="">Female</td>
+  </tr>
+  <tr>
+    <td>Choose Course:</td><td>
+      <select name="course">
+        <option name="">---Select---</option>
+        <option name="">BCA</option>
+        <option name="">MCA</option>
+        <option name="">BSc</option>
+        <option name="">Msc</option>
+      </select>
+    </td>
+  </tr>
+  <tr><td>Hoobies: </td><td><input type="checkbox" name="singing" size="">Singing <input type="checkbox" name="dancing" size="">Dancing <input type="checkbox" name="cricket" size="">Cricket <input type="checkbox" name="reading" size="">Reading</td>
+  </tr>
+  <tr>
+    <td>Address: </td><td> <textarea name="address" placeholder="Enter Your Address"></textarea></td>
+  </tr>
+  <tr>
+    <td>Photo: </td><td> <input type ="file" name="email" size""></td><td><b>Upload</b></td>
+  </tr>
+  <tr>
+  <td style="text-align: center;">
+  <input type="submit" name="submit" value="Submit">
+</td> </tr>
+  
+</table>
+  
+</form>
+</body>
+</html>
